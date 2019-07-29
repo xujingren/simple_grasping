@@ -53,7 +53,8 @@ add_library(simple_grasping
   src/cloud_tools.cpp
   src/object_support_segmentation.cpp
   src/shape_extraction.cpp
-  src/shape_grasp_planner.cpp
+#  src/shape_grasp_planner.cpp
+  src/grasp_planner.cpp
 )
 target_link_libraries(simple_grasping
   ${Boost_LIBRARIES}
