@@ -207,7 +207,7 @@ int ShapeGraspPlanner::createGraspSeries(
   // A grasp on the corner of the box
   // count += createGrasp(pose, open, 1.57/2.0, x - 0.005, -z + 0.005, 0.25);
 
-  ROS_INFO(count<<"grasps are generated!");
+  ROS_INFO("%d grasps are generated!",count);
   return count;
 }
 
